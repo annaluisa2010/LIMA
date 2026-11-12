@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style5.css">
+    <title>Avaliações - Magnólia Ateliê</title>
+</head>
+<body>
+
+    <header>
+        <h1>Magnólia Ateliê</h1>
+        <div class="imagem">
+        <img src="mag.png" alt="Logo" width="400" style="border-radius: 15px;">
+        </div>
+    </header>
+    <br><br>
+    
+    <hr>
+    <nav>
+            <ul>
+                <li><a href="boasvindas.html">Início</a></li>
+                <li><a href="boasvindas.html">Sobre nós</a></li>
+                <li><a href="produtos.html">Planos</a></li>
+                <li><a href="produtos.html">Mídia</a></li>
+                <li><a href="boasvindas.html">Sustentáveis</a></li>
+                <li><a href="boasvindas.html">Dúvidas</a></li>
+                <li><a href="#avaliações">Ver Avaliações</a></li>
+                <li><a href="#fazeravaliação">Fazer Avaliação</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+    <main>
+        <h2>O que dizem os nossos clientes? </h2>
+        <p>A satisfação de quem confia no nosso trabalho é a nossa maior inspiração. Confira os depoimentos de quem já viveu a experiência Magnólia Ateliê:</p>
+
+        <section id="avaliações">
+            <article class="cartao-avaliacao">
+                <h3>Mariana Silva</h3>
+                <p class="estrelas">★★★★★</p>
+                <p><em>"A decoração do meu casamento ficou impecável! As flores estavam super frescas e o arranjo do altar superou todas as minhas expectativas. Atendimento muito carinhoso do início ao fim."</em></p>
+                <span>Evento: Casamento (Mini Wedding)</span>
+            </article>
+
+            <article class="cartao-avaliacao">
+                <h3>Carlos Eduardo</h3>
+                <p class="estrelas">★★★★★</p>
+                <p><em>"Encomendei um centro de mesa para um jantar especial em família. O cuidado com os detalhes e a combinação das cores deixaram a mesa linda. Recomendo de olhos fechados!"</em></p>
+                <span>Evento: Jantar Íntimo</span>
+            </article>
+
+            <article class="cartao-avaliacao">
+                <h3>Beatriz Mendes</h3>
+                <p class="estrelas">★★★★★</p>
+                <p><em>"Contratei a decoração para o aniversário de 30 anos da minha irmã. O painel botânico virou o cenário de todas as fotos da festa! Trabalho impecável e de muito bom gosto."</em></p>
+                <span>Evento: Festa de Aniversário</span>
+            </article>
+        </section>
+
+        <hr>
+        <br>
+
+        <div class="box">
+        <section id="fazeravaliação">
+            <h2>Deixe a sua Avaliação</h2>
+            <p>Já contratou nossos serviços? Compartilhe como foi a sua experiência conosco:</p>
+
+            <form action="#" method="post">
+                <p>
+                    <label for="nome">Seu Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+                </p>
+
+                <p>
+                    <label for="tipo-evento">Tipo de Evento/Serviço:</label><br>
+                    <input type="text" id="tipo-evento" name="tipo-evento" placeholder="Ex: Casamento, Aniversário, Centro de Mesa">
+                </p>
+
+                <p>
+                    <label for="nota">Sua Nota:</label><br>
+                    <select id="nota" name="nota" required>
+                        <option value="5">★★★★★ (Excelente)</option>
+                        <option value="4">★★★★☆ (Muito Bom)</option>
+                        <option value="3">★★★☆☆ (Bom)</option>
+                        <option value="2">★★☆☆☆ (Regular)</option>
+                        <option value="1">★☆☆☆☆ (Ruim)</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="comentario">Seu Depoimento:</label><br>
+                    <textarea id="comentario" name="comentario" rows="5" cols="40" required placeholder="Escreva aqui sua experiência com o nosso ateliê..."></textarea>
+                </p>
+
+                <button type="submit">Enviar Avaliação</button>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><b>2026 Magnólia Ateliê - Todos os direitos reservados.</b> </p>
+        <p><b>Desenvolvido por Anna Luisa Mota Ferreira.</b> </p>
+    </footer>
+
+</body>
+</html>

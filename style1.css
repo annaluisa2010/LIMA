@@ -1,0 +1,44 @@
+body {
+    font-family: Playfair-Display-Script;
+    background: #d3aed6;
+    padding-top: 20px;
+}
+
+button, .btn {
+    padding: 10px;
+    background: #7d5e80;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+}
+
+title {
+    text-align: center;
+}
+.imagem{
+    border-radius: 50px;
+    text-align:center;
+}
+p {
+    color: rgb(83, 55, 83);
+}
+.bemvindo {
+    color: rgb(83, 55, 83);
+    text-align: center;
+}
+.box {
+    background: rgb(203, 157, 206);
+    width: 380px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(44, 28, 43, 0.3);
+}
+footer {
+    text-align: center;
+}
+p {
+    text-align: center;
+}

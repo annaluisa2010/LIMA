@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Serviços e Produtos - Magnólia Ateliê</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header>
+        <h1>Magnólia Ateliê</h1>
+        <div class="imagem">
+        <img src="mag.png" alt="Logo" width="400" style="border-radius: 15px;">
+        </div>
+    </header>
+
+    <hr>
+    <nav>
+         <ul>
+                <li><a href="boasvindas.html">Início</a></li>
+                <li><a href="boasvindas.html">Sobre nós</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#midia">Mídia</a></li>
+                 <li><a href="boasvindas.html">Sustentáveis</a></li>
+                <li><a href="boasvindas.html">Dúvidas</a></li>
+                <li><a href="avaliacoes.html">Ver Avaliações</a></li>
+                <li><a href="avaliacoes.html">Fazer Avaliação</a></li>
+            </ul>
+    </nav>
+
+    <hr>
+    <main>
+
+       <section id="midia">
+        <h2>Fazendo parte de momentos inesquecíveis:</h2>
+        
+        <div class="box">
+        <img src="casamento.png" height="350" width="300" alt="Casamento">
+        <img src="aniversario.png" height="350" alt="Aniversário">
+        <img src="chabebe.png"  height="350" width="350" alt="Chá de Bebê">
+        <img src="janta.png"  height="350" width="290" alt="Jantares">
+        <img src="mesa.png"  height="350" width="290" alt="Centros de Mesa">
+        </div>
+
+        <hr>
+         </section>
+
+          <h2>Catálogo de Serviços e Tabela de Preços</h2>
+        <p>Confira nossos pacotes de decoração floral e arranjos exclusivos para o seu evento:</p>
+
+    <br>
+    <section id="filtros">
+    <label for="busca">Buscar serviço:</label>
+    <input type="text" id="busca" placeholder="Ex: Casamento, Centro de mesa...">
+
+    <label for="categoria">Categoria:</label>
+    <select id="categoria">
+        <option value="todas">Todas as categorias</option>
+        <option value="centros">Centros de Mesa</option>
+        <option value="jantares">Jantares e Eventos Íntimos</option>
+        <option value="aniversario">Decorações para Aniversário</option>
+        <option value="casamento">Decoração de Casamentos</option>
+        <option value="corporativo">Corporativo & Geral</option>
+    </select>
+</section>
+<br><br>
+
+    <hr>
+    <section id="planos">
+        <h2>Tabelas de Preços:</h2>
+        
+        <table border="1" style="align-items: center;">
+            <thead>
+                <tr>
+                    <th>Código/Item</th>
+                    <th>Categoria</th>
+                    <th>Serviço / Produto</th>
+                    <th>Descrição</th>
+                    <th>Preço Médio (R$)</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>CM-01</td>
+                    <td>Centros de Mesa</td>
+                    <td>Arranjo Padrão</td>
+                    <td>Composição em vaso de vidro ou cerâmica (flores da estação)</td>
+                    <td>R$ 80,00 – R$ 150,00 / un.</td>
+                    <td><button type="button">Solicitar Cotação</button></td>
+                </tr>
+                <tr>
+                    <td>CM-02</td>
+                    <td>Centros de Mesa</td>
+                    <td>Arranjo Premium</td>
+                    <td>Design alto/imponente com florais nobres e folhagens</td>
+                    <td>R$ 180,00 – R$ 350,00 / un.</td>
+                    <td><button type="button">Solicitar Cotação</button></td>
+                </tr>
+
+                <tr>
+                    <td>JE-01</td>
+                    <td>Jantares e Eventos Íntimos</td>
+                    <td>Mesa Posta Minimalista</td>
+                    <td>Arranjos baixos de centro + velas e detalhes botânicos</td>
+                    <td>R$ 400,00 – R$ 800,00</td>
+                    <td><button type="button">Solicitar Cotação</button></td>
+                </tr>
+                <tr>
+                    <td>JE-02</td>
+                    <td>Jantares e Eventos Íntimos</td>
+                    <td>Experiência Gastronômica</td>
+                    <td>Decoração completa para mesa de até 12 lugares (flores + velas)</td>
+                    <td>R$ 900,00 – R$ 1.800,00</td>
+                    <td><button type="button">Solicitar Cotação</button></td>
+                </tr>
+
+                <tr>
+                    <td>AN-01</td>
+                    <td>Decorações para Aniversário</td>
+                    <td>Kit Petit / Intimate</td>
+                    <td>Buquê principal + 3 a 5 minivarranjos para mesa do bolo</td>
+                    <td>R$ 500,00 – R$ 950,00</td>
+                    <td><button type="button">Solicitar Cotação</button></td>
+                </tr>
+                <tr>
+                    <td>AN-02</td>
+                    <td>Decorações para Aniversário</td>
+                    <td>Decoração Completa</td>
+                    <td>Mesa principal, arranjos de ambiente e painel botânico</td>
+                    <td>R$ 1.500,00 – R$ 3.500,00</td>
+                    <td><button type="button">Solicitar Cotação</button></td>
+                </tr>
+
+                <tr>
+                    <td>CS-01</td>
+                    <td>Decoração de Casamentos</td>
+                    <td>Cerimônia (Mini Wedding)</td>
+                    <td>Passarela com arranjos + arco ou altar florido</td>
+                    <td>R$ 2.500,00 – R$ 5.000,00</td>
+                    <td><button type="button">Solicitar Cotação</button></td>
+                </tr>
+                <tr>
+                    <td>CS-02</td>
+                    <td>Decoração de Casamentos</td>
+                    <td>Recepção & Festa</td>
+                    <td>Mesas dos convidados, mesa dos noivos e lounge</td>
+                    <td>R$ 4.000,00 – R$ 9.000,00</td>
+                    <td><button type="button">Solicitar Cotação</button></td>
+                </tr>
+                <tr>
+                    <td>CS-03</td>
+                    <td>Decoração de Casamentos</td>
+                    <td>Projeto Completo</td>
+                    <td>Cerimônia + Recepção + Buquê da Noiva + Lapelas</td>
+                    <td>R$ 7.500,00 – R$ 18.000,00+</td>
+                    <td><button type="button">Solicitar Cotação</button></td>
+                </tr>
+
+                <tr>
+                    <td>DG-01</td>
+                    <td>Decorações Gerais & Corporativo</td>
+                    <td>Arranjos de Recepção / Hall</td>
+                    <td>Assinatura floral semanal/mensal ou evento pontual</td>
+                    <td>R$ 250,00 – R$ 600,00 / un.</td>
+                    <td><button type="button">Solicitar Cotação</button></td>
+                </tr>
+                <tr>
+                    <td>DG-02</td>
+                    <td>Decorações Gerais & Corporativo</td>
+                    <td>Ambientação de Espaços</td>
+                    <td>Decoração personalizada para lojas, inaugurações ou ensaios</td>
+                    <td>R$ 800,00 – R$ 2.500,00</td>
+                    <td><button type="button">Solicitar Cotação</button></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">* Os valores finais dependem da escolha das flores e época do ano. Frete e montagem calculados à parte.</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <hr>
+        <section id="informacoes-servicos">
+    <h3>Como funcionam os nossos orçamentos:</h3>
+    <ul>
+        <li><strong>Personalização:</strong> Todos os arranjos adaptam-se à paleta de cores e preferências do cliente.</li>
+        <li><strong>Frete e Montagem:</strong> O valor do transporte e da montagem no local é calculado com base no endereço do evento.</li>
+        <li><strong>Agendamento:</strong> Recomendamos a reserva com antecedência para garantir a disponibilidade das espécies da época.</li>
+    </ul>
+</section>
+
+    </main>
+
+    <hr>
+  <footer>
+        <p><b>2026 Magnólia Ateliê - Todos os direitos reservados.</b> </p>
+        <p><b>Desenvolvido por Anna Luisa Mota Ferreira.</b> </p>
+    </footer>
+
+</body>
+</html>
